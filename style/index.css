@@ -9,12 +9,14 @@ body {
 }
 
 /* NAVBAR */
+
 .landing_container {
     background-image: url("/bgHero.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
 }
+
 .header_container{
     display: flex;
     justify-content: space-between;
