@@ -138,12 +138,12 @@ body {
 }
 
 .section_one { 
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .section_two { 
-    width: 80%;
+    width: 70%;
     margin: 0 auto; 
 }
 
@@ -158,13 +158,13 @@ body {
 .results_content {
     border: 1px solid #fff;
     text-align: center;
-    width: 500px;
+    width: 490px;
     height: 200px;
-    margin: 20px auto; 
+    margin: 7px auto; 
 }
 
 .results_content h1 {
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 20px;
 
 }
