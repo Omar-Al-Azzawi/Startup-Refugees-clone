@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.landing_container {
+    background-image: url("/bgHero.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.58); 
+    height: 20vh;
+}
+
+.header_container img {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+
+.navbar_container ul {
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+    margin-right: 180px;
+}
+
+.navbar_container ul li {
+    margin: 40px 20px;
+    font-weight: bold;
+}
+
+.navbar_container ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar_container ul li a:hover {
+    color: salmon;
+}
+
+/* HERO */
+
+.hero_container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.58); 
+    height: 80vh;
+}
+
+.hero_text {
+    font-size: 20px;
+    color: #fff;
+    width: 60%;
+    margin: 4rem auto;
+    line-height: 35px;
+}
+
+.hero_links_container {
+    margin: 0 auto;
+}
+
+.hero_links_up {
+    margin-bottom: 20px;
+}
+
+.hero_links_up button {
+    text-decoration: none;
+    background-color: rgba(250, 128, 114, 0.629);
+    color: #fff;
+    padding: 1rem;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero_links_down button {
+    text-decoration: none;
+    background-color: rgba(250, 128, 114, 0.629);
+    color: #fff;
+    padding: 1rem;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero_links_up button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero_links_down button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero_links {
+    width: 20rem;
+}
+
+.hero_links_up button:hover,
+.hero_links_down button:hover {
+    background-color: salmon;
+    cursor: pointer;
+    box-shadow: 0 0 15px #fff;
+}
+
+/* RESULTS */
+
+.results_container{
+    background-color: black;
+    height: 100vh;
+    color: #fff;
+}
+
+.results_title {
+    font-size: 30px;
+    padding-top: 10rem;
+    text-align: center;
+}
+
+.line {
+    width: 20%;
+    height: 4px;
+    background-color: salmon;
+    margin: 2rem auto;
+}
+
+.results_container_up {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 400px;
+    height: 100px;
+}
+
+.results_content {
+    border: 2px solid #fff;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+
+.results_container_down {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 400px;
+    height: 100px;
+}
