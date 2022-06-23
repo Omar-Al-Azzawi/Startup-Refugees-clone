@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* NAVBAR */
@@ -61,11 +61,12 @@ body {
 }
 
 .hero_text {
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
-    width: 60%;
+    width: 50%;
     margin: 4rem auto;
     line-height: 35px;
+    letter-spacing: 2px;
 }
 
 .hero_links_container {
@@ -206,4 +207,29 @@ footer p {
     margin: 20px;
     padding-left: 20px;
     font-size: smaller;
+}
+
+
+/* OUR VALUES */
+
+.our_values {
+    background-color: rgba(0, 0, 0, 0.60); 
+    min-height: 100vh;
+}
+
+.our_values_content {
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.our_values_content div h1 {
+    font-size: 25px;
+    margin-top: 60px;
+    color: #fff;
+}
+
+.our_values_content div p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #999;
 }
