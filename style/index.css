@@ -45,6 +45,7 @@ body {
 .navbar_container ul li a {
     text-decoration: none;
     color: #fff;
+    transition: all 0.5s ease-in-out;
 }
 
 .navbar_container ul li a:hover {
@@ -77,16 +78,7 @@ body {
     margin-bottom: 20px;
 }
 
-.hero_links_up button {
-    text-decoration: none;
-    background-color: rgba(250, 128, 114, 0.629);
-    color: #fff;
-    padding: 1rem;
-    margin: 0 10px;
-    border: none;
-    border-radius: 10px;
-}
-
+.hero_links_up button,
 .hero_links_down button {
     text-decoration: none;
     background-color: rgba(250, 128, 114, 0.629);
@@ -95,13 +87,10 @@ body {
     margin: 0 10px;
     border: none;
     border-radius: 10px;
+    transition: all 0.5s ease-in-out;
 }
 
-.hero_links_up button a {
-    text-decoration: none;
-    color: #fff;
-}
-
+.hero_links_up button a,
 .hero_links_down button a {
     text-decoration: none;
     color: #fff;
@@ -201,6 +190,11 @@ footer ul li {
 footer ul li img {
     width: 200px;
     height: 200px;
+    transition: all 0.5s ease-in-out;
+}
+
+footer ul li img:hover {
+    transform: scale(1.1);
 }
 
 footer p {
