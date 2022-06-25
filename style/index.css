@@ -128,23 +128,17 @@ body {
     margin: 2rem auto;
 }
 
-.section_one { 
+.section_one,
+.section_two { 
     width: 70%;
     margin: 0 auto;
 }
 
-.section_two { 
-    width: 70%;
-    margin: 0 auto; 
-}
-
-.results_box_one {
-    display: flex;
-}
-
+.results_box_one,
 .results_box_two {
     display: flex;
 }
+
 
 .results_content {
     border: 1px solid #fff;
