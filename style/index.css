@@ -221,3 +221,16 @@ footer p {
     margin-top: 20px;
     color: rgb(199, 199, 199);
 }
+
+/* GET INVOLVED */
+
+.get-involved_container {
+    height: 100vh;
+    background-image: url('/bg-02.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.get-involved_container {
+    background-color: rgba(0, 0, 0, 0.60);
+}
